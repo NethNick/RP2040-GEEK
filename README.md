@@ -1,4 +1,4 @@
-# RP2040-Geeker: SD Trigger & HID Payload Injector
+# RP2040-GEEK: SD Trigger & HID Payload Injector
 
 A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware). It reads a `pay.txt` file from the USB drive and simulates HID keyboard input. Great for quick automation, testing, or proof-of-concept demos.
 
