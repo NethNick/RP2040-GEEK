@@ -1,6 +1,6 @@
 # RP2040-GEEK: HID Payload Injector (aka BADusb)
 
-A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware). It reads a `pay.txt` file from the USB drive and simulates HID keyboard input. Great for quick automation, testing, or proof-of-concept demos.
+A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware). It reads the first line of `pay.txt` file from the USB drive and simulates HID keyboard input. Great for quick automation, testing, or proof-of-concept demos.
 
 ## ⚙️ Hardware requirements
 
