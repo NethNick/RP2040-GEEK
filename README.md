@@ -32,7 +32,7 @@ Then in / of the RP2040 drive put:
 - `pay.txt` (payload file only first line will be used)
 - `code.py` (actually uses Italian Keyboard Layoyt)
 
-Note: second payload in pay.txt will search a powershell named mimi.ps1 and execute it, try some powershell script and have fun (in case remove the `kbd.press(Keycode.F11)` in line 89 of code.py.
+Note: second payload in pay.txt will search a powershell named mimi.ps1 and execute it (move it to the first line), try some powershell script and have fun (in case remove the `kbd.press(Keycode.F11)` in line 89 of code.py.
 
 ## 🔐 Disclamer and security notice
 
