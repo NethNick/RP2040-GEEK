@@ -19,8 +19,8 @@ A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware)
 
 ## 📁 File Structure
 
-in /lib you need some [libraries](https://circuitpython.org/libraries) (PLEASE: same version as CircuitPython
-- adafruit_bitmap_font (as above)
+in /lib you need some libraries (PLEASE: same version as CircuitPython)
+- adafruit_bitmap_font from [libraries](https://circuitpython.org/libraries)
 - adafruit_display_text (as above)
 - adafruit_hid (as above)
 - adafruit_st7789.mpy from [Adafruit_CircuitPython_ST7789](https://github.com/adafruit/Adafruit_CircuitPython_ST7789/releases)
