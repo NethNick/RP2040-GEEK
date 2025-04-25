@@ -19,7 +19,7 @@ A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware)
 
 ## 📁 File Structure
 
-in /lib you need some libraries (PLEASE: same version as CircuitPython)
+With CircuitPython installed and a standard boot to le the project work you'll need in /lib some libraries (PLEASE: same version as CircuitPython, so 9.x):
 - adafruit_bitmap_font from [libraries](https://circuitpython.org/libraries)
 - adafruit_display_text (as above)
 - adafruit_hid (as above)
@@ -28,9 +28,11 @@ in /lib you need some libraries (PLEASE: same version as CircuitPython)
 - keyboard_layout_win_it.mpy from [Neradoc/Keyboard_Layouts](https://github.com/Neradoc/Circuitpython_Keyboard_Layouts/tree/main)
 - keycode_win_it.mpy (as above)
 
-in / of the RP2040 drive
+Then in / of the RP2040 drive put:
+- pay.txt
 - code.py
-- and pay.txt
+
+Note: second payload in pay.txt will search a powershell named mimi.ps1 and execute it, try some powershell script and have fun (in case remove the `kbd.press(Keycode.F11)` in line 89 of code.py.
 
 ## 🔐 Disclamer and security notice
 
