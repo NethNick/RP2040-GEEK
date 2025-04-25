@@ -1,8 +1,8 @@
-# RP2040-GEEK: SD Trigger & HID Payload Injector
+# RP2040-GEEK: HID Payload Injector (aka BADusb)
 
 A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware). It reads a `pay.txt` file from the USB drive and simulates HID keyboard input. Great for quick automation, testing, or proof-of-concept demos.
 
-## ⚙️ Hardware Requirements
+## ⚙️ Hardware requirements
 
 - Board: [Waveshare RP2040-GEEK](https://www.waveshare.com/rp2040-geek.htm)
 - microSD card with SPI adapter
@@ -31,3 +31,7 @@ in /lib you need some [libraries](https://circuitpython.org/libraries) (PLEASE: 
 in / of the RP2040 drive
 - code.py
 - and pay.txt
+
+## 🔐 Disclamer and security notice
+
+This project simulates automated keyboard input: **use only on devices you control**. Not intended for malicious use.
