@@ -12,7 +12,7 @@ A small project for the Waveshare RP2040-GEEK board (with CircuitBoard firmware)
 ## 🐍 Installing CircuitPython
 
 1. Go to [circuitpython.org](https://circuitpython.org/board/waveshare_rp2040_geek/)
-2. Download the `.uf2` firmware
+2. Download the `.uf2` firmware (I've chosen ver. 9.x)
 3. Connect the board while holding the **BOOTSEL** button
 4. Drag and drop the `.uf2` file onto the new USB drive
 5. After reboot, a `CIRCUITPY` drive will appear
